@@ -126,7 +126,7 @@ graph,target)
         .attr("y",margins.top)
     
     labels.append("text")
-        .text("semester")
+        .text("Quiz Number")
         .classed("label",true)
         .attr("text-anchor","middle")
         .attr("x",margins.left+(graph.width/2))
